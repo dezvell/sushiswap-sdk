@@ -21,10 +21,10 @@ describe('AbstractCurrency', () => {
           return other.isNative && other.chainId === this.chainId
         }
         get wrapped(): Token {
-          return new Token(ChainId.MAINNET, ADDRESS_ONE, 18)
+          return new Token(ChainId.ETHEREUM, ADDRESS_ONE, 18)
         }
       }
-      expect(new MoonBeam(ChainId.MAINNET).serialize()).toEqual(ADDRESS_ONE)
+      expect(new MoonBeam(ChainId.ETHEREUM).serialize()).toEqual(ADDRESS_ONE)
     })
   })
 })
