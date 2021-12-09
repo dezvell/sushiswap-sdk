@@ -8,9 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sushiswap/sushiswap-sdk",
+  "repository": "https://github.com/dezvell/sushiswap-sdk",
   "keywords": [
     "sushiswap",
+    "binance",
     "ethereum",
     "sdk"
   ],
